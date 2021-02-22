@@ -2,7 +2,7 @@ pipeline {
     agent { docker { image 'google/cloud-sdk' } }
     parameters {
         choice(name: 'Enter_Choice',
-               choices: 'one\ntwo\nthree'.
+               choices: 'one\ntwo\nthree',
                description: 'Eneter chocies')
         string(name: 'test_string',
                defaultValue: "Hello!",
