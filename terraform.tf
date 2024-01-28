@@ -25,3 +25,7 @@ variable "ENV" {
 variable "ENV" {
   default = "dev"  //prod  //sit
 }
+
+variable "ENV" {
+  default = "dev"  //prod  //sit
+}
