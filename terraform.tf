@@ -17,3 +17,11 @@ variable "LOCATION" {
 variable "ENV" {
   default = "dev"  //prod  //sit
 }
+
+variable "ENV" {
+  default = "dev"  //prod  //sit
+}
+
+variable "ENV" {
+  default = "dev"  //prod  //sit
+}
